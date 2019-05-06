@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="schoolApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercice 1</title>
+</head>
+<body ng-controller="studentsCtrl">
+  <p>Exercice 1
+
+      Dans le fichier html fourni, afficher la variable firstName dans la div.
+      Important : Toutes les variables (firstName, lastName, age, grade) sont prédéfinies</p>
+    <div>
+        <h1>Bonjour {{firstName}}</h1>
+        <p> Ce n'est pas vous?</p>
+        <input ng-model="firstName">
+    </div>
+    <script src="assets/js/angular.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
